@@ -1,6 +1,5 @@
-const PI = 3.14;
-const radius = 3;
-let area = 0;
-area = radius * radius * pi;
-radius = 4;
-area = radius * radius * pi;
+const foodList = ["Mexican","Japanese","Chinese","American"];
+
+const newList = document.createElement('ul');
+newList.innerHTML = '<li>{$foodList[0]}</li><li>${myList[1]}</li>';
+document.body.appendChild(newList);
