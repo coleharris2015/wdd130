@@ -1,5 +1,11 @@
-let foodList = ["Mexican","Japanese","Chinese","American"];
+const today = new Date();
 
-let newList = document.createElement('ul');
-newList.innerHTML = '<li>{$foodList[0]}</li><li>${myList[1]}</li>';
-document.body.appendChild(newList);
+let data = ['Mexican', 'Japanese', 'Chinese', 'American', 'Any that is edible' ];
+  
+let list = document.getElementById("myList");
+  
+data.forEach((item)=>{
+  let li = document.createElement("li");
+  li.innerText = item;
+  list.appendChild(li);
+})
