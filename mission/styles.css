@@ -1,0 +1,41 @@
+.line_spacing{
+	line-height: 1.5;
+}
+.title {
+	text-align: center;
+	text-transform: capitalize;
+	letter-spacing: .2rem;
+  }
+
+.title2{
+	
+	text-align: center;
+	color:#006EB6;
+	}
+
+.p1{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	
+}
+ol li {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 0%;
+}
+.center {
+  	display: block;
+  	margin-left: auto;
+	margin-right: auto;
+  	width: 250px;
+  }
+
+  body{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	border:1px solid;
+	padding:3em 4em;
+  }
+  
