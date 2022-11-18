@@ -1,0 +1,14 @@
+.font{
+	font: Helvetica, Arial, sans-serif;
+
+}
+
+.h1Font{
+	color: #473144;
+	font: Lora, Impact, serif;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+}
